@@ -13,11 +13,11 @@ export function HeroSection() {
         initial="hidden"
         animate="show"
         custom={0}
-        className="relative w-32 h-40 mx-auto lg:mx-0"
+        className="relative w-64 h-64 mx-auto lg:mx-0"
       >
-        <div className="absolute inset-0 rounded-2xl bg-linear-to-br from-violet-500 via-cyan-400 to-blue-500 animate-spin animation-duration-[12s]" />
-        <div className="absolute inset-0.5 rounded-2xl bg-[#09090b]" />
-        <div className="absolute inset-0.75 rounded-2xl overflow-hidden">
+        <div className="absolute inset-0 rounded-full bg-linear-to-br from-violet-500 via-cyan-400 to-blue-500 animate-spin animation-duration-[4s]" />
+        <div className="absolute inset-0.5 rounded-full bg-[#09090b]" />
+        <div className="absolute inset-0.75 rounded-full overflow-hidden">
           <Image
             src={`${basePath}/avatar.webp`}
             alt="Mateusz Krolik"
