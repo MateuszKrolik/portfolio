@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name — Backend & AI/ML Engineer",
+  title: "Mateusz Królik - Software Engineer",
   description: "Portfolio",
 };
 
