@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { fadeUp } from "./animations";
+import { basePath } from "@/lib/basePath";
 
 export function HeroSection() {
   return (
@@ -18,7 +19,7 @@ export function HeroSection() {
         <div className="absolute inset-0.5 rounded-2xl bg-[#09090b]" />
         <div className="absolute inset-0.75 rounded-2xl overflow-hidden">
           <Image
-            src="/avatar.jpg"
+            src={`${basePath}/avatar.jpg`}
             alt="Mateusz Krolik"
             width={80}
             height={80}
@@ -96,7 +97,7 @@ export function HeroSection() {
           className="text-zinc-500 hover:text-zinc-200 transition-colors"
         >
           <Image
-            src="/linkedin.svg"
+            src={`${basePath}/linkedin.svg`}
             alt="LinkedIn"
             width={20}
             height={20}
@@ -110,7 +111,7 @@ export function HeroSection() {
           className="text-zinc-500 hover:text-zinc-200 transition-colors"
         >
           <Image
-            src="/github.svg"
+            src={`${basePath}/github.svg`}
             alt="GitHub"
             width={20}
             height={20}
