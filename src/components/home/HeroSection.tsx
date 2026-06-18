@@ -19,7 +19,7 @@ export function HeroSection() {
         <div className="absolute inset-0.5 rounded-2xl bg-[#09090b]" />
         <div className="absolute inset-0.75 rounded-2xl overflow-hidden">
           <Image
-            src={`${basePath}/avatar.jpg`}
+            src={`${basePath}/avatar.webp`}
             alt="Mateusz Krolik"
             width={80}
             height={80}
