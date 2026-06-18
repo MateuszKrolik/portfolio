@@ -18,7 +18,7 @@ export default function Home() {
 
         <footer className="pt-4 pb-2 border-t border-white/5">
           <p className="text-xs font-mono text-zinc-600">
-            Built with Next.js &#183; TypeScript &#183; TailwindCSS &#183; Framer Motion &#183; shadcn/ui
+            Built with GitHub Actions &#183; Next.js &#183; TypeScript &#183; TailwindCSS &#183; Framer Motion &#183; shadcn/ui
           </p>
         </footer>
       </div>
