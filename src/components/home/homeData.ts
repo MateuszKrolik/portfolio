@@ -29,7 +29,7 @@ export const projects = [
 ];
 
 export const certs = [
-  { code: "MLS-C01", name: "AWS ML Engineer Associate" },
-  { code: "AIF-C01", name: "AWS Certified AI Practitioner" },
-  { code: "AZ-900", name: "Azure Fundamentals" },
+  { code: "MLS-C01", name: "AWS ML Engineer Associate", url: "https://www.credly.com/badges/85ac21e8-d85f-48a8-bdb0-f84b716a1673" },
+  { code: "AIF-C01", name: "AWS Certified AI Practitioner", url: "https://www.credly.com/badges/2a7af272-2f00-45c4-9958-d06766541c40" },
+  { code: "AZ-900", name: "Azure Fundamentals", url: "https://learn.microsoft.com/en-us/users/mateuszkrolik-5311/credentials/fa78c72e4b020aae" },
 ];

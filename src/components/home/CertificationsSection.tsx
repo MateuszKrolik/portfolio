@@ -20,18 +20,22 @@ export function CertificationsSection() {
 
       <div className="flex flex-col gap-3">
         {certs.map((c, i) => (
-          <motion.div
+          <motion.a
             key={c.code}
+            href={c.url}
+            target="_blank"
+            rel="noopener noreferrer"
             variants={fadeUp}
             initial="hidden"
             whileInView="show"
+            whileHover={{ scale: 1.02 }}
             viewport={{ once: true }}
             custom={i}
-            className="glass rounded-xl px-5 py-4 flex items-center gap-4"
+            className="glass rounded-xl px-5 py-4 flex items-center gap-4 cursor-pointer transition-colors hover:bg-white/8"
           >
             <span className="font-mono text-xs text-violet-400 min-w-20">{c.code}</span>
             <span className="text-sm text-zinc-300">{c.name}</span>
-          </motion.div>
+          </motion.a>
         ))}
       </div>
     </section>
