@@ -11,19 +11,19 @@ export const projects = [
   {
     title: "E2E Test Coverage Dashboard",
     desc: "Full-stack internal tool tracking E2E test coverage across financial features at Shiji Group. Simplified visibility into automation progress for QA and engineering teams.",
-    tags: ["TypeScript", "React", "FastAPI", "PostgreSQL"],
+    tags: ["Python3", "TypeScript", "FastAPI", "PostgreSQL", "React-Router", "Web Scraping"],
     status: "Professional",
   },
   {
     title: "Hotel Data Migration Tool",
     desc: "Internal maintenance tool enabling non-technical support agents to perform hotel data migrations independently, reducing developer involvement in production incidents.",
-    tags: ["Python", "FastAPI", "PostgreSQL"],
+    tags: ["C#", ".NET", "Entity Framework Core", "PostgreSQL"],
     status: "Professional",
   },
   {
     title: "Playwright Migration",
     desc: "Led migration of a 1600+ E2E test suite from Selenium to Playwright at Shiji Group, enabling async execution and significantly improving CI reliability and runtime.",
-    tags: ["Playwright", "TypeScript", "CI/CD", "GitLab"],
+    tags: ["C#", "xUnit", "Playwright", "Selenium"],
     status: "Professional",
   },
 ];
