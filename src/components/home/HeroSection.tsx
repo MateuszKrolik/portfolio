@@ -37,7 +37,7 @@ export function HeroSection() {
         custom={1}
         className="text-sm font-mono text-cyan-400 tracking-widest uppercase"
       >
-        Software Engineer → AI/ML
+        Full Stack Software Engineer (AI/ML)
       </motion.p>
 
       <motion.h1
@@ -57,9 +57,9 @@ export function HeroSection() {
         custom={3}
         className="text-zinc-400 text-lg max-w-xl leading-relaxed"
       >
-        Software engineer with a background in distributed systems and cloud infrastructure,
-        now specialising in AI/ML. Currently building financial systems for hospitality industry
-        while completing a Masters Degree in AI and Machine Learning.
+        FullStack/AI engineer with a background in distributed systems and cloud infrastructure,
+        now specialising in AI/ML. Currently building agentic AI solutions for clients in different industries (e.g. oil and insurance) on a wide variety of Cloud Platforms (GCP, Azure, and on-premise). 
+        Also during a Masters Degree in AI and Machine Learning.
       </motion.p>
 
       <motion.div
