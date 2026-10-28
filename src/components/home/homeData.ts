@@ -1,9 +1,10 @@
 export const skills: Record<string, string[]> = {
   "Programming & Scripting Languages": ["Python", "C#", "Java", "TypeScript", "Golang", "SQL", "Bash"],
-  "Backend": ["FastAPI", ".NET", "Spring Boot", "Node.js", "ORMs", "PostgreSQL", "Redis", "Elasticsearch", "Kafka"],
+  "Backend": ["FastAPI", ".NET", "Spring Boot", "Node.js", "ORMs", "Entity Framework Core", "PostgreSQL", "MsSQL Server", "Redis", "Elasticsearch", "Kafka", "Web Scraping"],
+  "Architecture": ["Microservices", "CQRS", "Event-driven Architecture", "Asynchronous Programming"],
   "Cloud & DevOps": ["AWS", "Azure", "GCP", "GitLab", "GitHub", "Docker", "Kubernetes", "Terraform"],
-  "Frontend": ["Streamlit", "Next.js", "React.js", "TailwindCSS", "HTML5", "CSS3", "Material Design"],
-  "AI / ML": ["AWS Kiro", "Amazon Q Developer", "MCP", "Agents", "RAG"],
+  "Frontend": ["Streamlit", "Next.js", "React.js", "React Router", "TailwindCSS", "HTML5", "CSS3", "Material Design"],
+  "AI / ML": ["AI Agents", "RAG", "GraphRAG", "MCP", "Agent Platform/Vertex AI", "Azure AI Foundry", "Gemini", "OpenAI", "vLLM", "AWS Kiro", "Amazon Q Developer"],
   "Testing": ["PyTest", "Playwright", "Selenium", "xUnit", "TDD", "BDD", "E2E"],
 };
 
@@ -50,7 +51,7 @@ export const workplaces: Workplace[] = [
     ],
   },
   {
-    company: "Full Stack Engineer",
+    company: "Shiji Group",
     role: "Software Engineer",
     period: "2024 - 2026",
     projects: [
@@ -73,15 +74,20 @@ export const workplaces: Workplace[] = [
   },
 ];
 
-export const certs = [
-  // GCP
-  { code: "GCP-PMLE", name: "GCP Proffesional Machine Learning Engineer", url: "https://www.credly.com/badges/2067fb67-1465-4118-83a1-4f081b8caee6/public_url" },
-  { code: "GCP-GEAD", name: "GCP Certified Partner Specialist Gemini Enterprise Agent Development", url: "https://www.credly.com/badges/c38a4c61-9c7a-4e9f-a3c4-b1588976c7e8/public_url" },
-  { code: "GCP-GED", name: "GCP Certified Partner Specialist Gemini Enterprise Deployment", url: "https://www.credly.com/badges/c8ca6c46-4e83-4328-ad0e-65d6c5716462/public_url" },
-  // Azure
-  { code: "AI-103", name: "Microsoft Certified: Azure AI Apps and Agents Developer Associate", url: "https://learn.microsoft.com/api/credentials/share/en-gb/MateuszKrlik-7051/43F76FAE5E839879?sharingId=6E021BA04ADDF89B" },
-  { code: "AZ-900", name: "Azure Fundamentals", url: "https://learn.microsoft.com/en-us/users/mateuszkrolik-5311/credentials/fa78c72e4b020aae" },
-  // AWS
-  { code: "MLS-C01", name: "AWS ML Engineer Associate", url: "https://www.credly.com/badges/85ac21e8-d85f-48a8-bdb0-f84b716a1673" },
-  { code: "AIF-C01", name: "AWS Certified AI Practitioner", url: "https://www.credly.com/badges/2a7af272-2f00-45c4-9958-d06766541c40" },
-];
+export type Cert = { code: string; name: string; url: string };
+
+export const certs: Record<string, Cert[]> = {
+  "Google Cloud": [
+    { code: "GCP-PMLE", name: "GCP Professional Machine Learning Engineer", url: "https://www.credly.com/badges/2067fb67-1465-4118-83a1-4f081b8caee6/public_url" },
+    { code: "GCP-GEAD", name: "GCP Certified Partner Specialist Gemini Enterprise Agent Development", url: "https://www.credly.com/badges/c38a4c61-9c7a-4e9f-a3c4-b1588976c7e8/public_url" },
+    { code: "GCP-GED", name: "GCP Certified Partner Specialist Gemini Enterprise Deployment", url: "https://www.credly.com/badges/c8ca6c46-4e83-4328-ad0e-65d6c5716462/public_url" },
+  ],
+  "Microsoft Azure": [
+    { code: "AI-103", name: "Microsoft Certified: Azure AI Apps and Agents Developer Associate", url: "https://learn.microsoft.com/api/credentials/share/en-gb/MateuszKrlik-7051/43F76FAE5E839879?sharingId=6E021BA04ADDF89B" },
+    { code: "AZ-900", name: "Azure Fundamentals", url: "https://learn.microsoft.com/en-us/users/mateuszkrolik-5311/credentials/fa78c72e4b020aae" },
+  ],
+  "AWS": [
+    { code: "MLS-C01", name: "AWS ML Engineer Associate", url: "https://www.credly.com/badges/85ac21e8-d85f-48a8-bdb0-f84b716a1673" },
+    { code: "AIF-C01", name: "AWS Certified AI Practitioner", url: "https://www.credly.com/badges/2a7af272-2f00-45c4-9958-d06766541c40" },
+  ],
+};
