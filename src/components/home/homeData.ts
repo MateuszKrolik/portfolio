@@ -83,6 +83,7 @@ export const certs: Record<string, Cert[]> = {
     { code: "GCP-GED", name: "GCP Certified Partner Specialist Gemini Enterprise Deployment", url: "https://www.credly.com/badges/c8ca6c46-4e83-4328-ad0e-65d6c5716462/public_url" },
   ],
   "Microsoft Azure": [
+    { code: "AB-100", name: "Agentic AI Business Solutions Architect Expert", url: "https://learn.microsoft.com/api/credentials/share/en-gb/MateuszKrlik-7051/B16046C73827197?sharingId=6E021BA04ADDF89B" },
     { code: "AI-103", name: "Microsoft Certified: Azure AI Apps and Agents Developer Associate", url: "https://learn.microsoft.com/api/credentials/share/en-gb/MateuszKrlik-7051/43F76FAE5E839879?sharingId=6E021BA04ADDF89B" },
     { code: "AZ-900", name: "Azure Fundamentals", url: "https://learn.microsoft.com/en-us/users/mateuszkrolik-5311/credentials/fa78c72e4b020aae" },
   ],
